@@ -1,0 +1,80 @@
+[
+  {
+    "id": 8,
+    "nombreSuperheroe": "Luminous",
+    "nombreReal": "Isabella Moore",
+    "nombreSociedad": "Defensora",
+    "edad": 26,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Oscuridad absoluta",
+    "poder": ["Emisión de luz", "Inmunidad a la oscuridad", "Cura con luz"],
+    "habilidadEspecial": "Luz cegadora",
+    "aliado": ["Photon"],
+    "enemigo": ["Shade"]
+  },
+  {
+    "id": 9,
+    "nombreSuperheroe": "Iron Fist",
+    "nombreReal": "Maximus Tabor",
+    "nombreSociedad": "Guerrero",
+    "edad": 33,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Agotamiento físico",
+    "poder": ["Fuerza sobrehumana", "Puño indestructible", "Maestro en artes marciales"],
+    "habilidadEspecial": "Puño de hierro",
+    "aliado": ["Black Panther"],
+    "enemigo": ["The Viper"]
+  },
+  {
+    "id": 10,
+    "nombreSuperheroe": "Eclipse",
+    "nombreReal": "Leo Blackwood",
+    "nombreSociedad": "Vigilante",
+    "edad": 38,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Luz intensa",
+    "poder": ["Manipulación de sombras", "Vuelo a través de las sombras", "Camuflaje oscuro"],
+    "habilidadEspecial": "Oscuridad total",
+    "aliado": ["Nightwing"],
+    "enemigo": ["Solarflare"]
+  },
+  {
+    "id": 11,
+    "nombreSuperheroe": "Giga",
+    "nombreReal": "Jordan Michaels",
+    "nombreSociedad": "Titan",
+    "edad": 31,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Tecnología avanzada",
+    "poder": ["Tamaño gigante", "Fuerza colosal", "Resistencia extrema"],
+    "habilidadEspecial": "Golpe sísmico",
+    "aliado": ["Hulk"],
+    "enemigo": ["Kaiju"]
+  },
+  {
+    "id": 12,
+    "nombreSuperheroe": "Viper",
+    "nombreReal": "Arielle Kane",
+    "nombreSociedad": "Mercenaria",
+    "edad": 27,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Veneno contrario",
+    "poder": ["Veneno paralizante", "Agilidad ofídica", "Reflejos rápidos"],
+    "habilidadEspecial": "Mordedura venenosa",
+    "aliado": ["Black Widow"],
+    "enemigo": ["Captain America"]
+  },
+  {
+    "id": 13,
+    "nombreSuperheroe": "Phantom Strike",
+    "nombreReal": "Adrian Cross",
+    "nombreSociedad": "Vigilante",
+    "edad": 29,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Silencio absoluto",
+    "poder": ["Mimetismo", "Agilidad sobrehumana", "Desmaterialización"],
+    "habilidadEspecial": "Golpe espectral",
+    "aliado": ["Hawkman"],
+    "enemigo": ["The Specter"]
+  }
+]
