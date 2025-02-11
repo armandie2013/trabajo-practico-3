@@ -1,0 +1,93 @@
+[
+{
+"ide":1, 
+"nombreSuperheroe":"Spiderman",
+"nombreReal":"Peter Parker",
+"nombreSociedad":"Vigilante",
+"edad":25,
+"planetaOrigen":"Tierra",
+"debilidad":"Radioactiva",
+"poder":["Trepar paredes","Sentido aracnido","Super fuerza","Agilidad"],
+"habilidadEspecial":"Redes de telaraña",
+"aliado":["Ironman"],
+"enemigo":["Duende Verde"]
+},
+{
+    "id": 2,
+    "nombreSuperheroe": "Shadow Strike",
+    "nombreReal": "Ethan Black",
+    "nombreSociedad": "Justiciero",
+    "edad": 30,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Luz intensa",
+    "poder": ["Invisibilidad", "Agilidad extrema", "Golpe sombrío"],
+    "habilidadEspecial": "Ataque sorpresa",
+    "aliado": ["Night Phantom"],
+    "enemigo": ["Lord Eclipse"]
+  },
+  {
+    "id": 3,
+    "nombreSuperheroe": "Solaris",
+    "nombreReal": "Helena Vega",
+    "nombreSociedad": "Heroína",
+    "edad": 27,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Oscuridad total",
+    "poder": ["Rayos solares", "Vuelo", "Regeneración"],
+    "habilidadEspecial": "Explosión solar",
+    "aliado": ["Lunarix"],
+    "enemigo": ["Dr. Eclipse"]
+  },
+  {
+    "id": 4,
+    "nombreSuperheroe": "Thunderstorm",
+    "nombreReal": "Kai Matsuda",
+    "nombreSociedad": "Vigilante",
+    "edad": 35,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Campos electromagnéticos",
+    "poder": ["Control del clima", "Descargas eléctricas", "Velocidad del rayo"],
+    "habilidadEspecial": "Tormenta eléctrica",
+    "aliado": ["Cyclone"],
+    "enemigo": ["Blackout"]
+  },
+  {
+    "id": 5,
+    "nombreSuperheroe": "Frostbite",
+    "nombreReal": "Aurora Skye",
+    "nombreSociedad": "Protectora",
+    "edad": 28,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Calor extremo",
+    "poder": ["Criogénesis", "Toque de escarcha", "Resistencia gélida"],
+    "habilidadEspecial": "Ráfaga ártica",
+    "aliado": ["Glacier"],
+    "enemigo": ["Inferno"]
+  },
+  {
+    "id": 6,
+    "nombreSuperheroe": "Chronos",
+    "nombreReal": "Darius Wells",
+    "nombreSociedad": "Viajero del tiempo",
+    "edad": 40,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Paradojas temporales",
+    "poder": ["Manipulación del tiempo", "Precognición", "Velocidad aumentada"],
+    "habilidadEspecial": "Retroceso temporal",
+    "aliado": ["Tempus"],
+    "enemigo": ["Void"]
+  },
+  {
+    "id": 7,
+    "nombreSuperheroe": "Vortex",
+    "nombreReal": "Serena Hayes",
+    "nombreSociedad": "Defensora",
+    "edad": 29,
+    "planetaOrigen": "Tierra",
+    "debilidad": "Desequilibrio dimensional",
+    "poder": ["Teletransportación", "Control gravitacional", "Creación de portales"],
+    "habilidadEspecial": "Vórtice dimensional",
+    "aliado": ["Warp"],
+    "enemigo": ["Singularity"]
+  }
+]
