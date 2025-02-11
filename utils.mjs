@@ -31,13 +31,13 @@ export function leerSuperheroes(rutaArchivo) {
   const datos = fs.readFileSync(rutaArchivo, 'utf-8')
   const superheroeArray = JSON.parse(datos);
   const superheroes = superheroeArray.map(hero => new Superheroe(hero.id, hero.nombreSuperheroe, hero.nombreReal, hero.nombreSociedad, hero.edad, hero.planetaOrigen, hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado, hero.enemigo))
-  superheroes.sort((a, b) => a.nombreSuperheroe.localeCompare(b.nombreSuperheroe))
+  superheroes.sort((a, b) => a.nombreSuperheroe.localeCompare(b.nombreSuperheroe));
   return superheroes;
 
 }
 
 export function agregarSuperheroes(rutaOriginal, rutaNuevos) {
-  
+
   const datosOriginales = fs.readFileSync(rutaOriginal, 'utf-8');
   const datosNuevos = fs.readFileSync(rutaNuevos, 'utf-8');
   const superHeroesOriginales = JSON.parse(datosOriginales);
@@ -47,5 +47,5 @@ export function agregarSuperheroes(rutaOriginal, rutaNuevos) {
 
   const listaActualizada = [...superHeroesOriginales, ...instanciasNuevos];
   fs.writeFileSync(rutaOriginal, JSON.stringify(listaActualizada, null, 2), 'utf8');
-  console.log('Lista de superheroes actualizada con exito.')
+  console.log('Lista de superheroes actualizada con exito.');
 }
