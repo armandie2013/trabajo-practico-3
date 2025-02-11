@@ -40,12 +40,12 @@ export function agregarSuperheroes(rutaOriginal, rutaNuevos) {
   
   const datosOriginales = fs.readFileSync(rutaOriginal, 'utf-8');
   const datosNuevos = fs.readFileSync(rutaNuevos, 'utf-8');
-  const superHeroesOrgiginales = JSON.parse(datosOriginales);
+  const superHeroesOriginales = JSON.parse(datosOriginales);
   const nuevosSuperheroes = JSON.parse(datosNuevos);
   const instanciasNuevos = nuevosSuperheroes.map(hero => new Superheroe(hero.id, hero.nombreSuperheroe, hero.nombreReal, hero.nombreSociedad, hero.edad, hero.planetaOrigen, hero.debilidad, hero.poder, hero.habilidadEspecial, hero.aliado, hero.enemigo));
 
 
-  const listaActualizada = [...superHeroesOrgiginales, ...instanciasNuevos];
+  const listaActualizada = [...superHeroesOriginales, ...instanciasNuevos];
   fs.writeFileSync(rutaOriginal, JSON.stringify(listaActualizada, null, 2), 'utf8');
   console.log('Lista de superheroes actualizada con exito.')
 }
