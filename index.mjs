@@ -1,7 +1,7 @@
 import { leerSuperheroes, agregarSuperheroes } from "./utils.mjs";
 
-const archivoOriginal = './superheroes.txt'; // Usa rutas relativas
-const archivoNuevos = './agregarSuperheroes.txt'; // Corrige el nombre del archivo
+const archivoOriginal = './superheroes.txt';
+const archivoNuevos = './agregarSuperheroes.txt';
 
 // Agregar nuevos superhéroes al archivo original
 agregarSuperheroes(archivoOriginal, archivoNuevos);
